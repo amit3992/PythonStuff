@@ -1,4 +1,5 @@
 #This is a python array
+import cv2
 
 newArray = ["Amit","Seattle","Ericsson"];
 print(newArray);

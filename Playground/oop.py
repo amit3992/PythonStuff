@@ -1,6 +1,12 @@
-class Music:
-    def Notes(self, note):
-        self.data = note;
-    def display(self):
-        print self.data
+class MyClass:
+    variable = "blah"
+    def foo(self):
+        print('Hello from MyClass')
 
+myObjX = MyClass()
+myObjY = MyClass()
+
+myObjY.variable = "Giggity goo"
+
+print(myObjX.variable)
+print(myObjY.variable)
