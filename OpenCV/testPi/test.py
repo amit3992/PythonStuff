@@ -1,4 +1,3 @@
-import numpy as np
 import cv2
 
 #capture one frame
